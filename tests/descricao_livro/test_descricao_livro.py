@@ -6,4 +6,3 @@ def test_descricao_livro():
     expected_description = "O livro Harry Hotter de J.K.Roulins possui " \
                            "320 páginas."
     assert livro.__repr__() == expected_description
-
